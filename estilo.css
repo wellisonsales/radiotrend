@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+}
+
+.logo {
+    position: relative;
+    margin-top: 300px;
+    margin-left: 600px;
+}
