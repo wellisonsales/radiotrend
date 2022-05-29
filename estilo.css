@@ -1,9 +1,31 @@
 body {
-    background-color: black;
+    background-color: #202020;
 }
 
-.logo {
-    position: relative;
-    margin-top: 300px;
-    margin-left: 600px;
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 15%;
+}
+
+.descricao{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
