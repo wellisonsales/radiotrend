@@ -53,11 +53,38 @@ body {
 .secao_dois .generos{
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    align-items: center;
     justify-content: center;
     margin-top: 50px;
+    gap: 50px;
 }
 
+.home .seta{
+    margin-top: 100px;
+    height: 30px;
+}
+
+/* seções de generos e players */
+
+.secao_dois .generos .style_pop{
+    font-family: "Poppins";
+    color: #ffffff;
+    font-weight: 500px;
+    background-color: #29006b;
+    padding: 50px;
+}
+
+.secao_dois .generos .style_funk{
+    background-color: #29006b;
+    padding: 50px;
+}
+
+.secao_dois .generos .style_sertanejo{
+    background-color: #29006b;
+    padding: 50px;
+}
+
+/* rodapé */
 .rodape {
     display: flex;
     font-family: "Poppins";
