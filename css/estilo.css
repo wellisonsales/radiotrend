@@ -41,18 +41,18 @@ body {
     height: 550px;
 }
 
+.home .seta{
+    margin-top: 100px;
+    height: 30px;
+}
+
 .secao_dois{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     background-image: linear-gradient(120deg, #161616, #2c2c2c);
-    height: 550px;
+    height: 1920px;
 }
 
 .secao_dois .generos{
-    margin-top: 50px;
-    gap: 50px;
+    gap: 40px;
 }
 
 .home .seta{
@@ -62,11 +62,14 @@ body {
 
 /* seções de generos e players */
 
-.titulodois{
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    color: #ffffff;
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    padding: 60px;
 }
+
 
 .generos{
     display: flex;
@@ -75,46 +78,26 @@ body {
     align-items: center;
 }
 
-.titulodois {
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    color: #ffffff;
-}
-
-.secao_dois .generos .style_pop{
-    font-family: "Poppins";
-    color: #ffffff;
-    font-weight: 500px;
-    background-color: #29006b;
-    padding: 50px;
-}
-
-.secao_dois .generos .style_funk{
-    background-color: #29006b;
-    padding: 50px;
-}
-
-.secao_dois .generos .style_sertanejo{
-    background-color: #29006b;
-    padding: 50px;
-}
-
-.titulosecao {
-    display: flex;
-    flex-direction: row;
-}
 
 /* rodapé */
 .rodape {
-    display: flex;
-    font-family: "Poppins";
-    font-size: 14px;
-    flex-direction: row;
-    justify-content: center;
-    color: #ffffff;
-    padding: 20px;
+    position: absolute;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    bottom: 0;
+    background-color: #121212;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 90px;
 }
 
 .iconradio {
     width: 200px;
+}
+
+.player{
+    width: 100%;
+    height: 1920px;
 }
